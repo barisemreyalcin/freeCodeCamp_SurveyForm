@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  padding: 2em 0;
+  font-family: Tahoma;
+  font-size: 16px;
+  margin: 0;
+  background-image: linear-gradient(100deg, rgba(125, 15, 25, 1), rgba(135, 20, 28, .5)), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+  background-attachment: fixed;
+}
+
+header {
+  text-align: center;
+  padding-bottom: 1.5em;
+}
+
+h1, p {
+  color: #f1f1f1;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+p {
+  font-style: italic;
+}
+
+form {
+  background-color: rgb(92, 10, 20);
+  width: 70%;
+  max-width: 650px;
+  min-width: 280px;
+  margin: 0 auto;
+  padding: 1.5em;
+}
+
+input, label, textarea, select {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  font-size: inherit;
+}
+
+input, select, textarea {
+  padding: 1em;
+  margin-top: .75em;
+}
+  
+textarea::placeholder {
+  font-family: Tahoma;
+}
+
+label {
+  margin-bottom: 1.5em;
+}
+
+textarea {
+  resize: vertical
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  display: inline-block;
+  width: unset;
+  margin: 0 .5em 0 0;
+  vertical-align: middle;
+  min-height: 1rem;
+  min-width: 1rem;
+}
+
+input[type="submit"] {
+  background-color: rgb(15, 0, 0);
+  color: #f1f1f1;
+  cursor: pointer;
+}
+
+label, legend {
+  color: #f1f1f1;
+}
+
+fieldset {
+  border: none;
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+.less-gap, legend {
+  margin-bottom: .5em;
+}
